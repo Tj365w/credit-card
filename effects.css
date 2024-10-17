@@ -1,0 +1,62 @@
+body{
+    margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.othrdets{
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    color: white;
+}
+.crdno{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    right: 25%;
+    color: white;
+    font-size: 25px;
+    width: 70%;
+}
+.cvv{
+    position: absolute;
+    right: 15%;
+    top: 41%;
+    color: white;
+    font-size: 20px;
+}
+.inpt{
+    width: 90%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 50px;
+   margin-bottom: 10px;
+   opacity: 0.3;
+}
+.inpt:focus{
+    opacity: 1;
+    border: 2px solid black;
+    outline: none;
+}
+.inpt::placeholder{
+    opacity: 0.3;
+    font-weight: 500;
+    font-size: medium;
+}
+.btn{
+      width: 90%;height: 50px;
+      margin-top: 20px;
+      border-radius: 5px;
+      color: white;
+      background-color: black;
+      border:  none;
+      cursor: pointer;
+
+}

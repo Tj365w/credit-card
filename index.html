@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="effects.css" type="text/css">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div style="display: flex;
+">
+  <div style="width: 30%;position: relative;
+  left: 0;
+  ">
+    
+    <img src="images/bg-main-desktop.png" style="height: 100%;width: 100%;">
+
+
+    <div style="position: absolute;
+    left: 30%;
+    bottom: 55%;
+    ">
+    <div style="position: relative; font-family:'Courier New', Courier, monospace;">
+      <img src="images/bg-card-front.png">
+      
+      
+      <img src="images/card-logo.svg" style="position: absolute;
+      top: 20px; left: 25px;">
+      <div class="crdno" id="cc">0000 0000 0000 0000</div>
+      <div class="othrdets">
+        <div style="text-align: left;width: 50%;" id="aa" >Jane Appleseed</div>
+        <div style="text-align: right;width: 50%;" id="ff" >00/00</div>
+      </div>
+    </div>
+
+
+
+    </div>
+
+
+  <div style="position: absolute;
+      left: 50%;
+      bottom: 20%;">
+  <div style="position: relative;">
+    <img src="images/bg-card-back.png">
+
+     <div class="cvv" id="bb">000</div>
+  </div>
+  </div>
+</div>
+
+  <div style="width: 70%;font-size: 15px; 
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  " id="area">
+  
+  </div>
+
+  
+
+  <script src="logic.js">
+
+  </script>
+</body>
+</html>
